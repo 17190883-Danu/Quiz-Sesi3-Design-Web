@@ -2,7 +2,7 @@ function HeaderWeb() {
     return (
         <div className="HeaderWeb">
           <header>
-           <div class="logo">
+           <div className="logo">
                TripShoop
            </div>
        </header>

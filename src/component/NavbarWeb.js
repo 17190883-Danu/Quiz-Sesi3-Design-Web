@@ -1,21 +1,27 @@
-import ContactWeb from "./ContactWeb";
+import React from 'react';
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import About from "../menu/Contact";
+import Login from "../menu/Login";
 
 function NavbarWeb() {
+
     return (
-        <div className="Navbar">
-          <nav>
-            <ul>
-                <li><a href="">Beranda</a></li>
-                <li><a href="/ContactWeb">Kontak Saya</a></li>
-                <li><a href="tentang-saya.html">Tentang Saya</a></li>
-            </ul>
-        </nav>
+        <div className="NavbarWeb">
+            <nav>
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                </ul>
+            </nav>
+            
+           
+        
         <div className="Button">
             <form>
-            <input class="search" type="text" placeholder="Cari..." required/>	
-            <input class="button" type="button" value="Cari"/>
+            <input className="search" type="text" placeholder="Cari..." required/>	
+            <input className="button" type="button" value="Cari"/>
             </form>		
-            <button>Login</button>
+            <button><li><Link to="/login">Login</Link></li></button>
         </div>
         </div>
     )

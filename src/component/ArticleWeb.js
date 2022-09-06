@@ -1,61 +1,59 @@
-import ContactWeb from "./ContactWeb";
-
 function ArticleWeb() {
     return (
         <div className="ArticleWeb">
            <article>
-           <div class="konten">
+           <div className="konten">
             <img src="images/kaos.jpg" />
-            <div class="judul">
+            <div className="judul">
                 Kaos Pendek
             </div>
            </div>
            
-           <div class="konten">
+           <div className="konten">
             <img src="images/koko.jpg" />
-            <div class="judul">
+            <div className="judul">
                 Koko
             </div>
            </div>
            
-           <div class="konten">
+           <div className="konten">
             <img src="images/kaospan.jpg" />
-            <div class="judul">
+            <div className="judul">
                 Kaos Panjang
             </div>
            </div>
            
-           <div class="konten">
+           <div className="konten">
             <img src="images/kemeja.jpg" />
-            <div class="judul">
+            <div className="judul">
                 Kemeja
             </div>
             </div>
 
-            <div class="konten">
+            <div className="konten">
             <img src="images/sd.jpg" />
-            <div class="judul">
+            <div className="judul">
                 Seragam SD
             </div>
             </div>
 
-            <div class="konten">
+            <div className="konten">
             <img src="images/smp.jpg" />
-            <div class="judul">
+            <div className="judul">
                 Seragam SMP
             </div>
             </div>
 
-            <div class="konten">
+            <div className="konten">
             <img src="images/sma.jpg" />
-            <div class="judul">
+            <div className="judul">
                 Seragam SMA/SMK
             </div>
             </div>
 
-            <div class="konten">
+            <div className="konten">
             <img src="images/guru.jpg" />
-            <div class="judul">
+            <div className="judul">
                 Seragam Guru
             </div>
             </div>
